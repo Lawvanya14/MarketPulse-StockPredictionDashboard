@@ -82,4 +82,7 @@ st.download_button('📥 Download Predictions as CSV', data=pred_df.to_csv(index
                    file_name='predictions.csv', mime='text/csv')
 
 st.write('---')
-st.caption('Made with 💖 by Codiee Lawv 2.0')
+st.caption('Developed by Codiee Lawv 2.0 – Data Analyst & ML Enthusiast')
+st.title('📈 MarketPulse – Stock Price Prediction')
+st.markdown('Predict stock trends using ensemble regression models (Random Forest, Gradient Boosting, and XGBoost).')
+st.info("Predictions are generated using an ensemble of Random Forest, Gradient Boosting, and XGBoost models.")
